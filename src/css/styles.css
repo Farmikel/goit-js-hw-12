@@ -125,7 +125,6 @@ img {
   position: relative;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
-  position: relative;
   left: 50%;
 }
 
@@ -165,4 +164,30 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.load-more {
+  display: block;
+  width: 125px;
+  height: 40px;
+  position: relative;
+  border-radius: 8px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background-color: #4E75FF;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  cursor: pointer;
+}
+
+.load-more:focus,
+.load-more:hover {
+  background-color: #6C8CFF;
 }
